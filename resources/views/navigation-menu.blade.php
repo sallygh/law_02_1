@@ -21,6 +21,9 @@
                     <x-nav-link href="{{ route('clients.index') }}" :active="request()->routeIs('clients.index')">
                         {{ __('إدارة الموكلين') }}
                     </x-nav-link>
+                    <x-nav-link href="{{ route('tasks.index') }}" :active="request()->routeIs('tasks.index')">
+                        {{ __('إدارة المهام') }}
+                    </x-nav-link>
 
                 </div>
 
