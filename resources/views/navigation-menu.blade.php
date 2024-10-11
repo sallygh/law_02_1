@@ -18,6 +18,10 @@
                     <x-nav-link href="{{ route('legal-cases.index') }}" :active="request()->routeIs('legal-cases.index')">
                         {{ __('إدارة القضايا') }}
                     </x-nav-link>
+                    <x-nav-link href="{{ route('clients.index') }}" :active="request()->routeIs('clients.index')">
+                        {{ __('إدارة الموكلين') }}
+                    </x-nav-link>
+
                 </div>
 
             </div>

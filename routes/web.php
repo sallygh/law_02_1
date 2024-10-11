@@ -18,5 +18,7 @@ Route::middleware([
 
 
 use App\Http\Controllers\LegalCaseController;
+use App\Http\Controllers\ClientController;
 
 Route::resource('legal-cases', LegalCaseController::class);
+Route::resource('clients', ClientController::class);
