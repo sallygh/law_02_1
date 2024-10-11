@@ -15,3 +15,8 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+
+use App\Http\Controllers\LegalCaseController;
+
+Route::resource('legal-cases', LegalCaseController::class);
